@@ -11,6 +11,16 @@ struct Settings {
     static let backgroundColor = Color(red: 56/255,green: 87/255, blue: 163/255)
 }
 
+struct CustomTextField: View {
+    
+    @State var emailValue : String = ""
+    var placeholder: String = ""
+    
+    var body: some View{
+        TextField(placeholder, text: $emailValue).padding([.top, .leading, .bottom], 10.0).foregroundColor(/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/).accentColor(/*@START_MENU_TOKEN@*/.pink/*@END_MENU_TOKEN@*/).background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.white/*@END_MENU_TOKEN@*/).cornerRadius(25)
+    }
+}
+
 struct ContentView: View {
     
     var body: some View {
