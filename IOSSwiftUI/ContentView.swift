@@ -13,8 +13,11 @@ struct Settings {
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ScrollView{
+            Text("Hello, world!")
+                .padding()
+        }.background(Settings.backgroundColor).edgesIgnoringSafeArea(Edge.Set.all)
+      
     }
 }
 
