@@ -12,11 +12,11 @@ struct Settings {
 }
 
 struct ContentView: View {
+    
     var body: some View {
         ScrollView{
             VStack( spacing:20){
-                Text("Hello, world!")
-                    .padding()
+                Text("IOS SwiftUI").padding()
             }.padding([.top, .leading, .trailing],50)
         
         }.background(Settings.backgroundColor).edgesIgnoringSafeArea(Edge.Set.all)
