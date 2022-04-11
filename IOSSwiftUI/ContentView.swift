@@ -14,8 +14,11 @@ struct Settings {
 struct ContentView: View {
     var body: some View {
         ScrollView{
-            Text("Hello, world!")
-                .padding()
+            VStack( spacing:20){
+                Text("Hello, world!")
+                    .padding()
+            }.padding([.top, .leading, .trailing],50)
+        
         }.background(Settings.backgroundColor).edgesIgnoringSafeArea(Edge.Set.all)
       
     }
