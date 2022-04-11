@@ -27,6 +27,11 @@ struct ContentView: View {
         ScrollView{
             VStack( spacing:20){
                 Text("IOS SwiftUI").padding()
+                
+                CustomTextField(placeholder: "Email")
+                
+                CustomTextField(placeholder: "Password")
+                
             }.padding([.top, .leading, .trailing],50)
         
         }.background(Settings.backgroundColor).edgesIgnoringSafeArea(Edge.Set.all)
