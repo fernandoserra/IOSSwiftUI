@@ -20,6 +20,7 @@
 		B37686B82803AEDA00CDA045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B37686BB2803AEDA00CDA045 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3FEEC50280E1D2A009A1C81 /* MyPersonalPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPersonalPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B3FEEC52280E29D1009A1C81 /* MyStructPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyStructPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +37,7 @@
 		B37686A82803AED700CDA045 = {
 			isa = PBXGroup;
 			children = (
-				B3FEEC50280E1D2A009A1C81 /* MyPersonalPlayground.playground */,
+				B3FEEC51280E2999009A1C81 /* Playgrounds */,
 				B37686B32803AED700CDA045 /* IOSSwiftUI */,
 				B37686B22803AED700CDA045 /* Products */,
 			);
@@ -67,6 +68,15 @@
 				B37686BB2803AEDA00CDA045 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3FEEC51280E2999009A1C81 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				B3FEEC50280E1D2A009A1C81 /* MyPersonalPlayground.playground */,
+				B3FEEC52280E29D1009A1C81 /* MyStructPlayground.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
