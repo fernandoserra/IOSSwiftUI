@@ -8,6 +8,11 @@ struct calculator{
     var n1:Int
     var n2:Int
     
+    init() {
+        n1=20
+        n2=30
+    }
+    
     func sumNums() -> Int {
         return n1+n2
     }
@@ -18,9 +23,28 @@ struct calculator{
     
 }
 
+//Sin ini
+//var sumNum = calculator (n1:20, n2:30)
+var sumNum = calculator ()
 
-var sumNum = calculator (n1:20, n2:30)
 
 print(sumNum.sumNums())
 
 print(sumNum.multi(n1: 2, n2: 2))
+
+////////////////////////
+
+
+print( calculator().n1)
+print( calculator().n2)
+
+print(sumNum.n1)
+print(sumNum.n2)
+
+sumNum.n1=14
+sumNum.n2=15
+
+print("======")
+print(sumNum.n1)
+print(sumNum.n2)
+
