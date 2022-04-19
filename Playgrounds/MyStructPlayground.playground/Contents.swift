@@ -53,7 +53,7 @@ print(sumNum.n2)
 
 var suma: Int {
     let x=100
-    return 10+3 +x
+    return 10+3+x
 }
 
 suma
