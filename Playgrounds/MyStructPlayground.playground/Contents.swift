@@ -48,3 +48,13 @@ print("======")
 print(sumNum.n1)
 print(sumNum.n2)
 
+
+//Computed Properties - Propiedades calculadas
+
+var suma: Int {
+    let x=100
+    return 10+3 +x
+}
+
+suma
+
