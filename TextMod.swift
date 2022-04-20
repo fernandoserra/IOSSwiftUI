@@ -10,6 +10,10 @@ import SwiftUI
 struct TextMod: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            .font(.largeTitle)
+            .foregroundColor(Color.blue)
+            .padding()
+            .background(.black)
     }
 }
 
