@@ -11,6 +11,7 @@
 		B37686B72803AED700CDA045 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37686B62803AED700CDA045 /* ContentView.swift */; };
 		B37686B92803AEDA00CDA045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37686B82803AEDA00CDA045 /* Assets.xcassets */; };
 		B37686BC2803AEDA00CDA045 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37686BB2803AEDA00CDA045 /* Preview Assets.xcassets */; };
+		B3A6E242280FB63B0029F63B /* TextMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E241280FB63B0029F63B /* TextMod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B37686B62803AED700CDA045 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B37686B82803AEDA00CDA045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B37686BB2803AEDA00CDA045 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3A6E241280FB63B0029F63B /* TextMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMod.swift; sourceTree = "<group>"; };
 		B3FEEC50280E1D2A009A1C81 /* MyPersonalPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPersonalPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B3FEEC52280E29D1009A1C81 /* MyStructPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyStructPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -37,6 +39,7 @@
 		B37686A82803AED700CDA045 = {
 			isa = PBXGroup;
 			children = (
+				B3A6E241280FB63B0029F63B /* TextMod.swift */,
 				B3FEEC51280E2999009A1C81 /* Playgrounds */,
 				B37686B32803AED700CDA045 /* IOSSwiftUI */,
 				B37686B22803AED700CDA045 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				B37686B72803AED700CDA045 /* ContentView.swift in Sources */,
 				B37686B52803AED700CDA045 /* IOSSwiftUIApp.swift in Sources */,
+				B3A6E242280FB63B0029F63B /* TextMod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
