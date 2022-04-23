@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct TextFields: View {
+   @State var textView:String = "Fer"
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            Text(textView).bold()
+            Button {
+                textView = "Fernando"
+            } label: {
+                Text("Cambiando  el texto")
+            }
+            
+            
+
+        }
     }
+    
 }
 
 struct TextFields_Previews: PreviewProvider {
