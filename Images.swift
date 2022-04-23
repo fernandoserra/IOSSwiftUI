@@ -9,7 +9,27 @@ import SwiftUI
 
 struct Images: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack{
+            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            
+            Image("imagendemo").resizable().aspectRatio(contentMode: .fit).frame(width: 150, height: 150, alignment: .center)
+            
+            Image("imagendemo").resizable().aspectRatio(contentMode: .fit).frame(width: 150, height: 150, alignment: .center).blur(radius: /*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
+            
+            
+            Image("imagendemo").resizable().aspectRatio(contentMode: .fit).frame(width: 150, height: 150, alignment: .center).opacity(0.7)
+            
+            Image(systemName: "trash.fill")
+            
+            Button {
+                print("-> onpress buttom")
+            } label: {
+                Image("imagendemo").resizable().aspectRatio(contentMode: .fit).frame(width: 150, height: 150, alignment: .center)
+            }
+
+        }
+        
     }
 }
 
