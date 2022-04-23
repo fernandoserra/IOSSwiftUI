@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3683D1E2814559F00B1216B /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3683D1D2814559F00B1216B /* Images.swift */; };
 		B37686B52803AED700CDA045 /* IOSSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37686B42803AED700CDA045 /* IOSSwiftUIApp.swift */; };
 		B37686B72803AED700CDA045 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37686B62803AED700CDA045 /* ContentView.swift */; };
 		B37686B92803AEDA00CDA045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37686B82803AEDA00CDA045 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3683D1D2814559F00B1216B /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		B37686B12803AED700CDA045 /* IOSSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37686B42803AED700CDA045 /* IOSSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSSwiftUIApp.swift; sourceTree = "<group>"; };
 		B37686B62803AED700CDA045 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 		B37686A82803AED700CDA045 = {
 			isa = PBXGroup;
 			children = (
+				B3683D1D2814559F00B1216B /* Images.swift */,
 				B3A6E243280FBD660029F63B /* Buttons.swift */,
 				B3A6E241280FB63B0029F63B /* TextMod.swift */,
 				B3FEEC51280E2999009A1C81 /* Playgrounds */,
@@ -157,6 +160,7 @@
 			files = (
 				B37686B72803AED700CDA045 /* ContentView.swift in Sources */,
 				B37686B52803AED700CDA045 /* IOSSwiftUIApp.swift in Sources */,
+				B3683D1E2814559F00B1216B /* Images.swift in Sources */,
 				B3A6E242280FB63B0029F63B /* TextMod.swift in Sources */,
 				B3A6E244280FBD660029F63B /* Buttons.swift in Sources */,
 			);
