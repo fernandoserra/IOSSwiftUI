@@ -15,11 +15,11 @@ struct TextMod: View {
             .padding()
             .background(.black)
         
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        /*Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             .font(.largeTitle)
             .background(.black)
             .foregroundColor(Color.blue)
-            .padding()
+            .padding()*/
           
     }
 }

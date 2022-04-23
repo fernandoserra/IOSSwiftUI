@@ -9,7 +9,19 @@ import SwiftUI
 
 struct Tabviews: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        TabView{
+            TextMod().tabItem{
+                Text("Opc1")
+                Image(systemName: "moon")
+            }
+            
+            TextFields().tabItem{
+                Text("Opc2")
+                Image(systemName: "play")
+            }
+        }
+        
     }
 }
 
