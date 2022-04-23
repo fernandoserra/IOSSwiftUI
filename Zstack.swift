@@ -14,15 +14,31 @@ struct Zstack: View {
             
             Color.blue
             
-            VStack{
+            VStack {
                 
-                Image("imagendemo").resizable().aspectRatio(contentMode: .fit).frame(width: 100, height: 100, alignment: .center)
+                ShowImage()
+                
+                ShowImage()
+                
+                ShowImage()
+                
+                ShowImage()
                 
                 Text("Fernando").foregroundColor(.white)
+                
+         
             }
             
         }.ignoresSafeArea()
         
+    }
+}
+
+struct ShowImage: View {
+    
+    var body: some View{
+        
+        Image("imagendemo").resizable().aspectRatio(contentMode: .fit).frame(width: 100, height: 100, alignment: .center)
     }
 }
 
