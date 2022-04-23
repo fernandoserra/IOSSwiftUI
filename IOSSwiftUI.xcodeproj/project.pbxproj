@@ -12,6 +12,7 @@
 		B3683D22281467CF00B1216B /* Dividers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3683D21281467CF00B1216B /* Dividers.swift */; };
 		B3683D2428146B6E00B1216B /* HstackVstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3683D2328146B6E00B1216B /* HstackVstack.swift */; };
 		B3683D26281470B100B1216B /* Zstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3683D25281470B100B1216B /* Zstack.swift */; };
+		B3683D28281479C500B1216B /* Tabwiews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3683D27281479C500B1216B /* Tabwiews.swift */; };
 		B37686B52803AED700CDA045 /* IOSSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37686B42803AED700CDA045 /* IOSSwiftUIApp.swift */; };
 		B37686B72803AED700CDA045 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37686B62803AED700CDA045 /* ContentView.swift */; };
 		B37686B92803AEDA00CDA045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37686B82803AEDA00CDA045 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		B3683D21281467CF00B1216B /* Dividers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dividers.swift; sourceTree = "<group>"; };
 		B3683D2328146B6E00B1216B /* HstackVstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HstackVstack.swift; sourceTree = "<group>"; };
 		B3683D25281470B100B1216B /* Zstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zstack.swift; sourceTree = "<group>"; };
+		B3683D27281479C500B1216B /* Tabwiews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabwiews.swift; sourceTree = "<group>"; };
 		B37686B12803AED700CDA045 /* IOSSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37686B42803AED700CDA045 /* IOSSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSSwiftUIApp.swift; sourceTree = "<group>"; };
 		B37686B62803AED700CDA045 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		B37686A82803AED700CDA045 = {
 			isa = PBXGroup;
 			children = (
+				B3683D27281479C500B1216B /* Tabwiews.swift */,
 				B3683D25281470B100B1216B /* Zstack.swift */,
 				B3683D2328146B6E00B1216B /* HstackVstack.swift */,
 				B3683D21281467CF00B1216B /* Dividers.swift */,
@@ -173,6 +176,7 @@
 				B37686B72803AED700CDA045 /* ContentView.swift in Sources */,
 				B3683D22281467CF00B1216B /* Dividers.swift in Sources */,
 				B37686B52803AED700CDA045 /* IOSSwiftUIApp.swift in Sources */,
+				B3683D28281479C500B1216B /* Tabwiews.swift in Sources */,
 				B3683D1E2814559F00B1216B /* Images.swift in Sources */,
 				B3A6E242280FB63B0029F63B /* TextMod.swift in Sources */,
 				B3A6E244280FBD660029F63B /* Buttons.swift in Sources */,
