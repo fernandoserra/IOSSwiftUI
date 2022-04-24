@@ -6,10 +6,31 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct VPlayer: View {
+    
+    @State var isPlaterActive:Bool =  false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+       
+        NavigationView{
+            
+            VStack{
+                Button(action: {isPlaterActive=true}, label: {
+                    Image("imagendemo").resizable().aspectRatio(contentMode: .fit)
+                })
+                
+                NavigationLink(
+                    //destination: Text("Reproducturo de video"),
+                    destination: VideoPlayer(player: AVPlayer(url: URL(string: "https://cdn.videvo.net/videvo_files/video/free/2014-08/large_watermarked/Earth_Zoom_In_preview.mp4")!)),
+                    isActive: $isPlaterActive,
+                    label: {EmptyView()})
+                
+            }
+            
+        }
+        
     }
 }
 
