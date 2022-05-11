@@ -22,6 +22,7 @@
 		B3A6E244280FBD660029F63B /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E243280FBD660029F63B /* Buttons.swift */; };
 		B3C49A782815A789008C8575 /* VPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C49A772815A788008C8575 /* VPlayer.swift */; };
 		B3EDE837282B664D007EB192 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EDE836282B664D007EB192 /* Contact.swift */; };
+		B3EDE839282B6671007EB192 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EDE838282B6671007EB192 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		B3A6E243280FBD660029F63B /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		B3C49A772815A788008C8575 /* VPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPlayer.swift; sourceTree = "<group>"; };
 		B3EDE836282B664D007EB192 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		B3EDE838282B6671007EB192 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		B3FEEC50280E1D2A009A1C81 /* MyPersonalPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPersonalPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B3FEEC52280E29D1009A1C81 /* MyStructPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyStructPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -59,6 +61,7 @@
 		B37686A82803AED700CDA045 = {
 			isa = PBXGroup;
 			children = (
+				B3EDE838282B6671007EB192 /* Home.swift */,
 				B3EDE836282B664D007EB192 /* Contact.swift */,
 				B3C49A772815A788008C8575 /* VPlayer.swift */,
 				B3683D2B28147C5100B1216B /* Navigations.swift */,
@@ -188,6 +191,7 @@
 				B37686B52803AED700CDA045 /* IOSSwiftUIApp.swift in Sources */,
 				B3C49A782815A789008C8575 /* VPlayer.swift in Sources */,
 				B3683D1E2814559F00B1216B /* Images.swift in Sources */,
+				B3EDE839282B6671007EB192 /* Home.swift in Sources */,
 				B3A6E242280FB63B0029F63B /* TextMod.swift in Sources */,
 				B3A6E244280FBD660029F63B /* Buttons.swift in Sources */,
 				B3683D2028145D3200B1216B /* TextFields.swift in Sources */,
