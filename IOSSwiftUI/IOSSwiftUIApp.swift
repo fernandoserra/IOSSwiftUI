@@ -11,7 +11,8 @@ import SwiftUI
 struct IOSSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            SplashScreenView()
         }
     }
 }
