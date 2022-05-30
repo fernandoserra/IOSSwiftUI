@@ -65,6 +65,7 @@
 		B37686A82803AED700CDA045 = {
 			isa = PBXGroup;
 			children = (
+				B39CA79C28459026008710EC /* viewModels */,
 				B39CA79B28458FE4008710EC /* view */,
 				B39CA79A28458F6F008710EC /* models */,
 				B39CA78E28414FB2008710EC /* SplashScreenView.swift */,
@@ -126,6 +127,13 @@
 			children = (
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		B39CA79C28459026008710EC /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModels;
 			sourceTree = "<group>";
 		};
 		B3FEEC51280E2999009A1C81 /* Playgrounds */ = {
