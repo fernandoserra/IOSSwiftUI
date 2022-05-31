@@ -23,7 +23,10 @@ struct CustomTextField: View {
 
 struct ContentView: View {
     
+    @State var isListPostViewActive = false
+    
     var body: some View {
+        NavigationView {
         ScrollView{
             VStack( spacing:20){
                 Text("IOS SwiftUI").padding()
@@ -32,25 +35,31 @@ struct ContentView: View {
                 
                 CustomTextField(placeholder: "Password")
                 
+                
+                
+                Button(action: {
+                    print("antes::: \(isListPostViewActive)")
+                    isListPostViewActive = true
+                    
+                    print("Redireccionando::: \(isListPostViewActive)")
+                }, label: {
+                    Text("Listar Post..")
+                }).padding(.top,20)
+             
+                    NavigationLink(
+                        destination: ListPost(),
+                        isActive: $isListPostViewActive,
+                        label: { EmptyView()})
+            
+                
             }.padding([.top, .leading, .trailing],50)
             
-            
-            
-            Button(action: {
-                print("Redireccionando")
-            }, label: {
-                Text("Listar Post")
-            }).padding(.top,20)
-            
-            
-        
         }.background(Settings.backgroundColor).edgesIgnoringSafeArea(Edge.Set.all)
-        
-        
-       
-      
+        }
     }
 }
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
