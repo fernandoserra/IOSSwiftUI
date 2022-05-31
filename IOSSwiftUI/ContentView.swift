@@ -33,8 +33,21 @@ struct ContentView: View {
                 CustomTextField(placeholder: "Password")
                 
             }.padding([.top, .leading, .trailing],50)
+            
+            
+            
+            Button(action: {
+                print("Redireccionando")
+            }, label: {
+                Text("Listar Post")
+            }).padding(.top,20)
+            
+            
         
         }.background(Settings.backgroundColor).edgesIgnoringSafeArea(Edge.Set.all)
+        
+        
+       
       
     }
 }
