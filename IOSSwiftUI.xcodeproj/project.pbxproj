@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B30A49E7284DAD3F00AB8D57 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A49E6284DAD3F00AB8D57 /* ViewModel.swift */; };
 		B3683D1E2814559F00B1216B /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3683D1D2814559F00B1216B /* Images.swift */; };
 		B3683D2028145D3200B1216B /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3683D1F28145D3200B1216B /* TextFields.swift */; };
 		B3683D22281467CF00B1216B /* Dividers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3683D21281467CF00B1216B /* Dividers.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B30A49E6284DAD3F00AB8D57 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		B3683D1D2814559F00B1216B /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		B3683D1F28145D3200B1216B /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
 		B3683D21281467CF00B1216B /* Dividers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dividers.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		B39CA79C28459026008710EC /* viewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B30A49E6284DAD3F00AB8D57 /* ViewModel.swift */,
 			);
 			path = viewModels;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				B3EDE839282B6671007EB192 /* Home.swift in Sources */,
 				B3A6E242280FB63B0029F63B /* TextMod.swift in Sources */,
 				B39CA79E2845906B008710EC /* Model.swift in Sources */,
+				B30A49E7284DAD3F00AB8D57 /* ViewModel.swift in Sources */,
 				B3A6E244280FBD660029F63B /* Buttons.swift in Sources */,
 				B3683D2028145D3200B1216B /* TextFields.swift in Sources */,
 				B39D66B92846D27E00D65634 /* ListPost.swift in Sources */,
