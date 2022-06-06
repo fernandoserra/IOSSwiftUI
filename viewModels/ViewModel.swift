@@ -9,7 +9,7 @@ import Foundation
 
 class ViewModel: ObservableObject {
     
-    @Published var gamesInfo = [Posts]()
+    @Published var postInfo = [Posts]()
     
     init(){
         let url = URL(string: "https://jsonplaceholder.typicode.com/posts")!
@@ -17,7 +17,6 @@ class ViewModel: ObservableObject {
         var request = URLRequest(url: url)
         
         request.httpMethod = "GET"
-        
         
         URLSession.shared.dataTask(with: request) { data, response, error in
             do{
@@ -30,7 +29,7 @@ class ViewModel: ObservableObject {
                     
                     
                     DispatchQueue.main.async {
-                        self.gamesInfo.append(contentsOf: decodeData)
+                        self.postInfo.append(contentsOf: decodeData)
                     }
                     
                 }
